@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "jstransformer-markdown": "^1.1.0",
+    "jstransformer-uglify-js": "^1.1.1",
     "live-server": "^0.9.1"
   }
 }
