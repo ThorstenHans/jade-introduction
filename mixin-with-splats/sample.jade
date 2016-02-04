@@ -1,0 +1,7 @@
+mixin nav-list(id, ...items)
+  ul.navigation(id=id)
+    each item in items
+      li.nav-item= item
+
+
++nav-list('main-navigation', 'Home', 'Articles', 'Videos', 'Podcasts', 'Forum')
