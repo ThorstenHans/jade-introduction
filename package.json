@@ -1,0 +1,27 @@
+{
+  "name": "jade-introduction",
+  "version": "0.0.1",
+  "description": "Samples for my article, see https://www.xplatform.rocks/2013/10/22/an-introduction-to-jade/ for more details",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/jade --out dist --hierarchy --pretty .",
+    "start": "./node_modules/.bin/live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThorstenHans/jade-introduction.git"
+  },
+  "keywords": [],
+  "author": "Thorsten Hans <thorsten.hans@gmail.com> (http://www.xplatform.rocks/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThorstenHans/jade-introduction/issues"
+  },
+  "homepage": "https://github.com/ThorstenHans/jade-introduction#readme",
+  "dependencies": {
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "live-server": "^0.9.1"
+  }
+}
