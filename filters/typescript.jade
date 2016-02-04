@@ -1,0 +1,17 @@
+doctype html
+head
+    title markdown sample
+body
+    button#greet Greet!
+    script
+        :typescript
+            class Greeter{
+                greet(name: string){
+                    alert(`Hello ${name}`);
+                }
+            }
+            
+            document.getElementById('greet').addEventListener('click', ()=>{
+                var g= new Greeter();
+                g.greet('Jade Developer');
+            });
